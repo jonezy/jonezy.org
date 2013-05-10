@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: jonezy.org
+index: true
 ---
 
 <h1>Hi, my name is jonezy.</h1>
@@ -22,3 +23,8 @@ title: Your New Jekyll Site
     <li>SQL</li>
   </ul>
 </div>
+<hr />
+<h2>Things I've Written</h2>
+{% for post in site.posts %}
+<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}

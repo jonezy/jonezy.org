@@ -4,11 +4,7 @@
 <meta charset="utf-8">
 <title>{{ page.title }}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">
-
-<!-- Le styles -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="/css/bootstrap.min.css" rel="stylesheet">
 <style>
 body {
   margin-top:40px;
@@ -22,6 +18,9 @@ aside .well {margin-top:60px;}
 aside .well address {margin-bottom:0}
 dl#timeline dt {width:50px;}
 dl#timeline dd {margin-left:70px;}
+.page-title h1 {float:left;}
+.page-title p {float:right;margin-top:20px;}
+.meta {color:#AD6B00;}
 footer {margin-top:20px;border-top:solid 1px #ddd;font-size:80%;color:#777;}
 </style>
 
@@ -37,9 +36,9 @@ footer {margin-top:20px;border-top:solid 1px #ddd;font-size:80%;color:#777;}
 <div class="container">
   <div class="row">
     <nav class="span2">
-      <img src="img/logo.png" />
+      <a href="/"><img src="/img/logo.png" /></a>
       <ul class="nav nav-pills nav-stacked">
-        <li class="active"><a href="#">Home</a></li>
+        <li class="{% unless page.post %}active{% endunless %}"><a href="/">Home</a></li>
         <!-- <li><a href="#">Blog</a></li> -->
       </ul>
     </nav>

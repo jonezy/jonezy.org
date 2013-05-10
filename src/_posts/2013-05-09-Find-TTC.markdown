@@ -1,0 +1,54 @@
+---
+layout: post
+title: "Find TTC" 
+date:   2013-05-09 18:51:12
+categories: projects
+post: true
+published: true
+---
+
+One of my favourite things about being a developer is learning new
+stuff.  I've actually put some thought into it and if learning wasn't
+such a big part of being a developer I would go fucking nuts and quit. Fuck that
+shit.
+
+So with this in mind, about 6 months ago, in the middle of a big
+backbone.js project at my day job, I decided that I would build myself
+my own transit finder with the following 2 requirements
+
+<ol>
+  <li>No database</li>
+  <li>Initial version in 6 hours or less.</li>
+</ol>
+
+So one saturday I was bored and thought fuck it, I'll build the fucker
+now.
+
+So I did, and I nailed my 2 requirements (which was pretty easy since
+there were only 2).  
+
+**This right here is one of my favourite methods of learning. **
+
+<ol>
+<li>Pick a problem that affects me (I take the ttc everyday, yes
+    there are other transit apps in Toronto but I didn't fucking build any
+    of them, and either you have to pay for the current ones or they kinda
+    suck)</li>
+  <li>Make your first version something that is achievable (because you want to feel the glory of success, trust me.)</li>
+  <li>Actually use the fucking thing and make it better (I still use <a href="http://findttc.com">Find TTC</a> every damn day), and I have plans on doing a major new version of it!</li>
+</ol>
+
+That's it, there's no secret to this stuff, no magic, no hidden gems.
+Sorry, you gotta want to do it, that's really all there is.
+
+NOW WITH THE CODE
+
+<ul>
+  <li><a href="http://github.com/jonezy/findttc">Find TTC on
+Github</a></li>
+  <li><a href="http://findttc.com">FindTTC.com</a></li>
+</ul>
+
+Please feel free to look at that code and fork it and make it better, or
+you could just troll me about how I used bootstrap and the UX sucks,
+that's fine too.
