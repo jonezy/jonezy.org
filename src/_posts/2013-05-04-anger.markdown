@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Anger" 
+date: 2013-06-04 7:47 AM 
+categories: writing
+post: true
+published: false
+---
+
