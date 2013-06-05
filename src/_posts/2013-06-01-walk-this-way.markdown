@@ -4,7 +4,7 @@ title: "Walk This Way"
 date: 2013-06-01 11:44 AM 
 categories: writing
 post: true
-published: false
+published: true
 ---
 
 I have a bit of a confession to make.  I notice things, and sometimes,
