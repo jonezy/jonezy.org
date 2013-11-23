@@ -1,27 +1,27 @@
 body {
   margin-top:40px;
-  background:#e5e5e5;
-  background:#eee;
+  background:#fff;
 }
 h1 {line-height:normal;margin:0 0 14px 0;}
-nav {text-align:center;}
-nav a {width:143px;height:59px;display:inline-block;margin-bottom:20px;background:url(../img/logo-sm.png) no-repeat;}
+nav {text-align:center;position:fixed;}
+nav a {width:180px;height:90px;display:inline-block;margin-bottom:20px;background:url(../img/logo-sm.png) no-repeat;}
 nav ul {margin-top:20px;}
  .nav-pills>.active>a,.nav-pills>.active>a:hover{color:#0088cc;background-color:#e5e5e5;}
+#content {margin-left: 280px;}
 #content .well ul {margin-bottom:0;}
 aside .well {margin-top:60px;}
 aside .well address {margin-bottom:0}
-dl#timeline dt {width:50px;}
-dl#timeline dd {margin-left:70px;}
 .page-title h1 {float:left;}
 .page-title p {float:right;margin-top:20px;}
 .meta {color:#AD6B00;}
 footer {margin-top:20px;border-top:solid 1px #ddd;font-size:80%;color:#777;}
 
-@media only screen and (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 979px) and (min-width: 768px) {
+    #content {margin-left:220px;}
+}
 
-  nav a {width:165px;height:84px;background:url(../img/logo.png)}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    #content {margin-left:0;}
+    nav {position:relative;}
   aside .well {margin-top:30px;}
-  .well,hr {margin-left:-20px;margin-right:-20px;}
-
 }
