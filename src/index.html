@@ -3,29 +3,16 @@ layout: default
 title: jonezy.org
 index: true
 ---
-
-<h1>me and you and everyone we know</h1>
+<h1>Hi, my name is jonezy...</h1>
 <p>I am a 36 year old male living in Toronto. I am an application/software/web developer at <a href="http://www.richmondday.com">Richmond Day</a>. This is my 16th year doing this and it's still my favourite thing in the world.</p>
-<p>I'm also a co-founder of a Toronto area developer meet up called <a href="http://www.devto.ca/">#DevTO</a>.  Once a month we host 150 or so developers from around the Toronto area for talks, beer and pizza. </p>
-<p>I built an app that helps you find a bus or streetcar in the city of Toronto, it's called <a href="http://www.findttc.com">Find TTC</a>. If your a developer you can check the project out on <a href="http://www.github.com/jonezy/findttc/">github</a></p>
-<p>Over the years I've worked at agencies, done freelance and helped start 2 succesful companies (<a href="http://www.q4websystems.com">Q4 Web Systems</a> and <a href="http://www.epilogger.com/">Epilogger</a>)</p>
-<p>Here are some languages/frameworks that I know and have been actively working with recently.</p>
-<div class="well">
-  <ul class="inline">
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Javascript</li>
-    <li>C#</li>
-    <li>Ruby</li>
-    <li>ASP.NET MVC</li>
-    <li>Ruby On Rails</li>
-    <li>Backbone</li>
-    <li>SQL</li>
-  </ul>
-</div>
+
+<a href="{{ site.url }}/about">More about me &raquo; </a>
 <hr />
-<h2>Writing</h2>
+<h2>Recent Posts</h2>
 <p>I've been trying to write lately, this is what I've done</p>
-{% for post in site.posts %}
+{% for post in site.posts limit:5 %}
 <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
+
+<br />
+<a href="{{ site.url }}/blog">All  Posts &raquo; </a>

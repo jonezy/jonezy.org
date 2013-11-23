@@ -1,0 +1,10 @@
+---
+layout: default
+title: jonezy.org
+index: true
+---
+<h1>Blog Posts</h1>
+<p>I've been trying to write lately, this is what I've done</p>
+{% for post in site.posts %}
+<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
