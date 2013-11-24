@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/site.css" rel="stylesheet">
 </head>
@@ -12,9 +13,14 @@
 <div class="container">
     <div class="row">
         <nav class="span3">
-            <a id="logo" href="/"></a>
+            <div id="logo">
+                <a href="/">
+                    <h1>jonezy</h1>
+                    <h3>dot.org</h3>
+                </a>
+            </div>
             <ul class="nav nav-pills nav-stacked">
-                <li {% if page.path == "blog/index.html" %} class="active" {% endif %}><a href="{{ site.url }}/blog/">Blog</a>
+                <li {% if page.isBlog == true %} class="active" {% endif %}><a href="{{ site.url }}/blog/">Blog</a>
                 <li {% if page.path == "resume/index.html" %} class="active" {% endif %}><a href="{{ site.url }}/resume/">Resume</a>
                 <li {% if page.path == "about/index.html" %} class="active" {% endif %}><a href="{{ site.url }}/about/">About</a>
             </ul>

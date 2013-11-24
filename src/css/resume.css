@@ -1,16 +1,6 @@
-body {
-    background:#fff;
-    color: #333;
-}
-
-
 hr {border: 1px solid #999;}
 
-header, section, footer {
-}
-
 header h2 small {color:#999; font-size:80%;}
-small a {color:#c09853;}
 
 header address {position:absolute;right:0;bottom:10px;}
 
@@ -40,56 +30,30 @@ section aside {
 
 aside  h4 {margin-top:0;}
 
-footer {
-    padding: 10px 0px;
-    border-top: 1px solid rgba(51,51,51,0.2);
-}
-
 address {font-style:normal;}
 
-.clearfix:before,
-.clearfix:after {
-    display: table;
-    content: " ";
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    header address {
+      position:relative;
+      clear:both;
+      padding:10px 0px;
+
+    }
 }
 
-.clearfix:after {
-    clear: both;
-  }
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+    header address {
+      position:relative;
+      clear:both;
+      padding:10px 0px;
+    }
 
-
-  /* Tablet Portrait size to standard 960 (devices and browsers) */
-  @media only screen and (min-width: 768px) and (max-width: 959px) {
-      header address {
-          position:relative;
-          clear:both;
-          padding:10px 0px;
-
-      }
-  }
-
-  /* All Mobile Sizes (devices and browser) */
-  @media only screen and (max-width: 767px) {
-
-      header address {
-          position:relative;
-          clear:both;
-          padding:10px 0px;
-      }
-
-      section aside {
-          float:none;
-          clear:both;
-          margin: 10px 0px;
-          width:96%;
-
-      }
-
-
+    section aside {
+      float:none;
+      clear:both;
+      margin: 10px 0px;
+      width:96%;
+    }
 }
-
-  /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-  @media only screen and (min-width: 480px) and (max-width: 767px) {}
-
-  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-  @media only screen and (max-width: 479px) {}
