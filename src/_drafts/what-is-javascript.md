@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What is: Javascript" 
-categories: writing,learning
+categories: learning
 post: true
 published: true
 ---
