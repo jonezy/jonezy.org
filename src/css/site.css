@@ -57,4 +57,6 @@ footer {
     }
     nav ul {text-align:center;width:220px;}
     nav ul li {display:inline;margin-right:5px;float:left !important; text-align:center;}
+    small {display:block;clear:both;}
+    .mhide {display:none;}
 }
