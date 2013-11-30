@@ -59,4 +59,6 @@ footer {
     nav ul li {display:inline;margin-right:5px;float:left !important; text-align:center;}
     small {display:block;clear:both;}
     .mhide {display:none;}
+    .page-title {margin-bottom: 10px;}
+.page-title p {float:left;margin-top:5px;clear:both;}
 }

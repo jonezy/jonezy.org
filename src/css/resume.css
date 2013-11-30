@@ -38,7 +38,7 @@ address {font-style:normal;}
       position:relative;
       clear:both;
       padding:10px 0px;
-
+      margin-bottom:0px;
     }
 }
 
@@ -48,6 +48,7 @@ address {font-style:normal;}
       position:relative;
       clear:both;
       padding:10px 0px;
+      margin-bottom:0px;
     }
 
     section aside {
