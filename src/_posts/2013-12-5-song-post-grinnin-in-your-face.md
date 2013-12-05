@@ -7,7 +7,7 @@ post: true
 published: true
 ---
 
-[Listn to Grinnin In Your Face by Son
+[Listen to Grinnin In Your Face by Son
 House](http://www.youtube.com/watch?v=gx1OFl_y-ic)
 
 I first heard this song while watching the documentary "It Might Get
