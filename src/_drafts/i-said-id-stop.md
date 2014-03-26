@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "I Said I Would Stop" 
+title: "I Said I Would Stop"
 categories: writing
 post: true
 published: true
@@ -8,8 +8,8 @@ published: true
 
 That's what I kept telling myself, every monday, this time I'll stop.
 
-It's not as though I woke up in a different city, peniless and only in
-posession of rambling fuzzy memories.
+It's not as though I woke up in a different city, penniless and only in
+possession of rambling fuzzy memories.
 
 But every monday morning in the shower I think to myself.  This time
 I'll stop, this time I won't when they are here.  I've started calling
