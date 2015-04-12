@@ -28,8 +28,7 @@ nav ul {margin:auto !important;width:60%;}
 .nav-pills>.active>a, .nav-pills>.active>a:hover {background-color:#fe2e9a;}
 #content {margin-left: 280px;}
 .page-title h1 {float:left;}
-.page-title p {float:right;margin-top:20px;}
-.meta {color:#AD6B00;}
+.meta {font-size:55%;color:#AD6B00;}
 footer {
     margin-top:20px;
     border-top:solid 1px #ddd;
