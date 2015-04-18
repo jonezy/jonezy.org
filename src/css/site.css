@@ -5,8 +5,8 @@ body {
 }
 h1,h2,h3 { font-family: 'Droid Sans'; }
 h1,h2 {
-    line-height:normal;
-    margin:0 0 14px 0;
+    line-height:0.8em;
+    margin:15px 0 24px 0;
 }
 
 nav {
