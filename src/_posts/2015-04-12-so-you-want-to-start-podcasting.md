@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "So You Want Yo Start Podcasting" 
+title: "So You Want To Start Podcasting" 
 categories: 
 date: 2015-4-12 8:00 PM 
 post: true
